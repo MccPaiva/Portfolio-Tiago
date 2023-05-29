@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Tiago/static/css/main.e12f4fab.css",
+    "main.js": "/Portfolio-Tiago/static/js/main.0f9bb983.js",
+    "static/media/AdelleSansEXT-Regular.woff": "/Portfolio-Tiago/static/media/AdelleSansEXT-Regular.0a9bcab054a6fd288eda.woff",
+    "static/media/AdelleSansEXT-Thin.woff": "/Portfolio-Tiago/static/media/AdelleSansEXT-Thin.7badc4ff4f012eed17d7.woff",
+    "static/media/AdelleSansEXT-Regular.woff2": "/Portfolio-Tiago/static/media/AdelleSansEXT-Regular.dad97c39ec35a704ce07.woff2",
+    "static/media/AdelleSansEXT-Thin.woff2": "/Portfolio-Tiago/static/media/AdelleSansEXT-Thin.39accd830e07f4e4ad8d.woff2",
+    "static/media/doge.jpg": "/Portfolio-Tiago/static/media/doge.86b33d3684a9cb392158.jpg",
+    "index.html": "/Portfolio-Tiago/index.html",
+    "main.e12f4fab.css.map": "/Portfolio-Tiago/static/css/main.e12f4fab.css.map",
+    "main.0f9bb983.js.map": "/Portfolio-Tiago/static/js/main.0f9bb983.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e12f4fab.css",
+    "static/js/main.0f9bb983.js"
+  ]
+}
