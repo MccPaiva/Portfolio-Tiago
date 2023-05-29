@@ -1,0 +1,243 @@
+@font-face {
+  font-family: 'Adelle Sans';
+  src:  url('./fonts/AdelleSansEXT-Regular.woff2') format('woff2'),
+        url('./fonts/AdelleSansEXT-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Adelle Thin';
+  src:  url('./fonts/AdelleSansEXT-Thin.woff2') format('woff2'),
+        url('./fonts/AdelleSansEXT-Thin.woff') format('woff');
+}
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root, .App{
+  font-family: 'Adelle Sans', sans-serif;
+}
+
+:root{
+  font-size: 10px;
+  background-color:  #13161A;
+  color:  #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.container{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.title{
+  margin: 3rem auto 0 auto;
+  text-align: center;
+  cursor: default;
+}
+
+.title img{
+  background-color: black;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
+  border: 1px solid #B0B8BF;
+}
+
+.title h1{
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.title h2{
+  font-size: 2rem;
+  color:  #B0B8BF;
+  font-family: "Adelle Thin";
+}
+
+.title p{
+  margin-top: 2rem;
+  font-size: 2rem;
+  color:  #B0B8BF;
+  font-family: "Adelle Thin";
+  text-align: left;
+}
+
+.articles{
+  max-width: 90rem;
+  margin: 7rem auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1% 6rem 1%;
+  width: 26%;
+  min-width: 25rem;
+  min-height: 25rem;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.article img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-position: center 10%;
+  border-radius: 10px;
+  transition: .5s ease;
+  outline: none;
+  border: 2px solid black;
+}
+
+.article h3{
+  font-size: 2.5rem;
+/*  font-family: "Adelle Thin";*/
+  font-weight: normal;
+  opacity: 0;
+  position: relative;
+  vertical-align: middle;
+  transition: .5s ease;
+}
+
+.article:hover img{
+  opacity: .3;
+}
+
+.article:hover h3{
+  opacity: 1;
+}
+
+.about{
+  margin-bottom: 10rem;
+}
+
+.contact{
+  margin: 20rem auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-between;
+  max-width: 50rem;
+}
+
+.contact h3{
+  font-family: "Adelle Thin";
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.contact span{
+  font-size: 1.5rem;
+  color: #B0B8BF;
+}
+
+.contact-1{
+  text-align: left;
+}
+
+.contact-2{
+  text-align: right;
+}
+
+.post-title{
+  margin: 3rem auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 90rem;
+}
+
+.post-title h1{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.post-title h2{
+  font-size: 2rem;
+  color:  #B0B8BF;
+  font-family: "Adelle Thin";
+}
+
+.post-title .info{
+  text-align: right;
+}
+
+.post{
+   cursor: default;
+   margin-bottom: 10rem;
+}
+
+.post img{
+  display: block;
+  margin: 4rem auto;  
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.text{
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.text h1{
+  font-size: 4rem;
+  text-align: center;
+}
+
+.text p{
+  margin: 2rem 0;
+  font-size: 2rem;
+  color:  #B0B8BF;
+  font-family: "Adelle Thin";
+  text-align: left;
+  white-space: pre-line;  
+  vertical-align: bottom;
+}
+
+@media only screen and (max-width: 600px) {
+
+/*  .article{
+    border: 1px solid #6c6e76;
+  }*/
+
+  .article:before{
+    opacity: .3;
+  }
+
+  .article h3{
+    opacity: 1;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 543px) {
+
+  .articles{
+    align-items: center;
+    justify-content: center;
+  }
+
+
+}
